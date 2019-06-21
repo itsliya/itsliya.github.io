@@ -1,0 +1,173 @@
+body {
+  background: white;
+  margin: 0px;
+}
+
+.background {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  bottom: 10px;
+  z-index: -5;
+}
+
+.navbar-container {
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  overflow: hidden;
+  z-index: -2;
+  background: white;
+  opacity: 0.8;
+  margin: 0px;
+  -webkit-box-shadow: 0 8px 10px -6px #999;
+   -moz-box-shadow: 0 8px 10px -6px #999;
+   box-shadow: 0 8px 10px -6px #999;
+
+}
+
+.navbar {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-style: normal;
+  color: #EFA953;
+  font-size: 17px;
+  z-index: 6;
+
+}
+
+a {
+	text-decoration: none;
+	position: relative;
+	color: inherit;
+}
+
+
+a.descriptionlinks:after {
+		content: "";
+	  background: #F2EFFF;
+	  position: absolute;
+	  height: 0.5em;
+	  width: calc(100% + 4px);
+	  left: 50%;
+	  bottom: 0;
+	  transform: translateX(-50%);
+	  z-index: -1;
+	  transition: 0.2s;
+}
+
+a.descriptionlinksorange:after {
+		content: "";
+	  background: #FFE2BE;
+	  position: absolute;
+	  height: 0.5em;
+	  width: calc(100% + 4px);
+	  left: 50%;
+	  bottom: 0;
+	  transform: translateX(-50%);
+	  z-index: -1;
+	  transition: 0.2s;
+}
+
+
+a.descriptionlinks:hover:after {
+		height: 1.1em;
+	}
+
+
+a.descriptionlinksorange:hover:after {
+		height: 1.1em;
+	}
+
+
+#work:hover, #now:hover, #about:hover {
+  opacity:0.6;
+}
+
+#work {
+  position: fixed;
+  left: 850px;
+  bottom: 553px;
+
+}
+
+
+#now {
+  position: fixed;
+  left: 1000px;
+  bottom: 553px;
+
+}
+
+#about {
+  position: fixed;
+  left: 1130px;
+  bottom: 553px;
+
+}
+
+.title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  width: 30%;
+  left: 345px;
+  top: 100px;
+  position: fixed;
+  font-weight: 200;
+  color: #818181;
+}
+
+.description-container {
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  width: 38%;
+  left: 190px;
+  top: 170px;
+  position: fixed;
+  font-weight: 300;
+  color: #818181;
+  letter-spacing: 0.75px;
+  text-align: justify;
+}
+
+.myphoto {
+  transform: scale(0.7);
+  left: 680px;
+  position: fixed;
+  opacity: 0.9;
+}
+
+.myphoto:hover {
+  opacity: 1;
+}
+
+@keyframes wave {
+  from {
+    left: 705px;
+  }
+  to {
+    left: 680px;
+  }
+}
+
+/*
+.myphoto img {
+  border-color: #DDB047;
+  border-style: solid;
+  border-spacing: 20px;
+}
+*/
+
+#mybrand {
+  position: fixed;
+  transform: scale(0.75);
+  left: 60px;
+  top: -10px;
+
+}
+
+a.mybrand:after {
+  text-decoration: none;
+  position: relative;
+}

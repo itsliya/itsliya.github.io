@@ -12,28 +12,47 @@ body {
 
 .navbar-container {
   position: fixed;
-  height: 55px;
+  height: 40px;
   width: 100%;
   overflow: hidden;
-  border-bottom-color: white;
+/*  border-bottom-color: white;
   border-bottom-width: 1px;
-  border-bottom-style: solid;
-  z-index: 5;
+  border-bottom-style: solid; */
+  z-index: -2;
+  opacity: 1;
 
 }
+
+a:link, a:active {
+  text-decoration: none;
+  color: white; /* #FFB44E; */
+}
+
+a:visited {
+  transition: color 1s ease-out;
+  color: white; /* #FFB44E; */
+}
+
 .navbar {
-  font-family: 'Arimo', sans-serif;
-  font-weight: 500;
+  display: inline;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2px;
+  font-weight: 600;
   font-style: normal;
   color: white;
-  font-size: 18px;
+  font-size: 17px;
+  z-index: 6;
 
+}
+
+#work:hover, #now:hover, #about:hover {
+  opacity:0.6;
 }
 
 #work {
   position: fixed;
   left: 850px;
-  bottom: 555px;
+  bottom: 553px;
 
 }
 
@@ -41,14 +60,14 @@ body {
 #now {
   position: fixed;
   left: 1000px;
-  bottom: 555px;
+  bottom: 553px;
 
 }
 
 #about {
   position: fixed;
   left: 1130px;
-  bottom: 555px;
+  bottom: 553px;
 
 }
 
@@ -64,11 +83,10 @@ body {
 .top-layer {
   position: fixed;
   left: 315px;
-  bottom: 245px;
-  z-index: 3;
-  color: rgba(0, 0, 0, 0.03);
+  bottom: 235px;
+  z-index: 2;
+  color: rgba(0, 0, 0, 0.05);
   animation:
-  top-layer-hovering 3s linear infinite,
   top-fade 3s linear 1 forwards;
   transform-origin: bottom;
 /*  text-shadow:
@@ -76,17 +94,18 @@ body {
     0.5px -0.5px 0 #DDB046,
     -0.5px 0.5px 0 #DDB046,
      0.5px 0.5px 0 #DDB046; */
+
 }
 
 @keyframes top-layer-hovering {
   0%, 100% {
-    bottom: 245px;
+    bottom: 235px;
   }
   50% {
-    bottom: 230px;
+    bottom: 245px;
   }
 }
-/*
+
 @keyframes top-fade {
     from {
        opacity: 0;
@@ -97,11 +116,12 @@ body {
       left: 315px;
     }
 }
-*/
+
 
 .middle-layer {
   position: fixed;
-  bottom: 245px;
+  left: 305px;
+  bottom: 235px;
   z-index: 2;
   color: white;
   text-shadow:
@@ -109,20 +129,16 @@ body {
     0.5px -0.5px 0 #DDB046,
     -0.5px 0.5px 0 #DDB046,
      0.5px 0.5px 0 #DDB046;
-  animation:
-  middle-layer-hovering 3s linear infinite,
-  middle-fade 3s linear 1;
+  animation: top-layer-hovering 2s linear 3s infinite forwards;
   transform-origin: bottom;
 }
 
 @keyframes middle-layer-hovering {
   0%, 100% {
-    left: 305px;
-    bottom: 245px;
+    left: 295px;
   }
   50% {
-    left: 295px;
-    bottom: 230px;
+    left: 315px;
   }
 }
 
@@ -141,17 +157,16 @@ body {
 
 .bottom-layer {
   position: fixed;
-  bottom: 235px;
   z-index: 1;
   color: white;
-  left: 305px;
+  left: 300px;
   text-shadow:
    -0.5px -0.5px 0 #DDB046,
     0.5px -0.5px 0 #DDB046,
     -0.5px 0.5px 0 #DDB046,
      0.5px 0.5px 0 #DDB046;
   animation:
-  bottom-layer-hovering 3s linear infinite,
+  bottom-layer-hovering 2s ease-in-out infinite,
   bottom-fade 3s linear 1;
   transform-origin: bottom;
 
@@ -163,7 +178,7 @@ body {
      bottom: 235px;
    }
    50% {
-     bottom: 225px;
+     bottom: 230px;
   }
 }
 
@@ -190,7 +205,7 @@ body {
 #mybrand {
   position: fixed;
   transform: scale(0.75);
-  left: 30px;
+  left: 60px;
   top: -10px;
 
 }
@@ -200,9 +215,8 @@ body {
   font-size: 50px;
   position: fixed;
   font-weight: 100;
-  left: 468px;
+  left: 460px;
   color: white;
-  bottom: 180px;
   animation-name: mulugeta-hovering;
   animation-duration: 3s;
   animation-iteration-count: 1;
@@ -218,6 +232,6 @@ body {
      }
     to   {
       opacity: 1;
-      bottom: 200px;
+      bottom: 205px;
     }
 }
