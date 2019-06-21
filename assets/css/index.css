@@ -2,6 +2,10 @@ body {
   margin: 0px;
 }
 
+@-ms-viewport{
+  width: device-width;
+}
+
 .background {
   position: fixed;
   width: 100%;
