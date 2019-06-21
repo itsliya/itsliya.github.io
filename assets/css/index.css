@@ -1,0 +1,223 @@
+body {
+  margin: 0px;
+}
+
+.background {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  bottom: 10px;
+  z-index: -5;
+}
+
+.navbar-container {
+  position: fixed;
+  height: 55px;
+  width: 100%;
+  overflow: hidden;
+  border-bottom-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  z-index: 5;
+
+}
+.navbar {
+  font-family: 'Arimo', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: white;
+  font-size: 18px;
+
+}
+
+#work {
+  position: fixed;
+  left: 850px;
+  bottom: 555px;
+
+}
+
+
+#now {
+  position: fixed;
+  left: 1000px;
+  bottom: 555px;
+
+}
+
+#about {
+  position: fixed;
+  left: 1130px;
+  bottom: 555px;
+
+}
+
+.liya {
+  font-family: 'Arimo', sans-serif;
+  font-size: 210px;
+  font-weight: 1000;
+  letter-spacing: 50px;
+  position: fixed;
+
+}
+
+.top-layer {
+  position: fixed;
+  left: 315px;
+  bottom: 245px;
+  z-index: 3;
+  color: rgba(0, 0, 0, 0.03);
+  animation:
+  top-layer-hovering 3s linear infinite,
+  top-fade 3s linear 1 forwards;
+  transform-origin: bottom;
+/*  text-shadow:
+   -0.5px -0.5px 0 #DDB046,
+    0.5px -0.5px 0 #DDB046,
+    -0.5px 0.5px 0 #DDB046,
+     0.5px 0.5px 0 #DDB046; */
+}
+
+@keyframes top-layer-hovering {
+  0%, 100% {
+    bottom: 245px;
+  }
+  50% {
+    bottom: 230px;
+  }
+}
+/*
+@keyframes top-fade {
+    from {
+       opacity: 0;
+       left: 0px;
+     }
+    to   {
+      opacity: 1;
+      left: 315px;
+    }
+}
+*/
+
+.middle-layer {
+  position: fixed;
+  bottom: 245px;
+  z-index: 2;
+  color: white;
+  text-shadow:
+   -0.5px -0.5px 0 #DDB046,
+    0.5px -0.5px 0 #DDB046,
+    -0.5px 0.5px 0 #DDB046,
+     0.5px 0.5px 0 #DDB046;
+  animation:
+  middle-layer-hovering 3s linear infinite,
+  middle-fade 3s linear 1;
+  transform-origin: bottom;
+}
+
+@keyframes middle-layer-hovering {
+  0%, 100% {
+    left: 305px;
+    bottom: 245px;
+  }
+  50% {
+    left: 295px;
+    bottom: 230px;
+  }
+}
+
+/*
+@keyframes middle-fade {
+    from {
+       opacity: 0;
+       left: 0px;
+     }
+    to   {
+      opacity: 1;
+      left: 305px;
+    }
+}
+*/
+
+.bottom-layer {
+  position: fixed;
+  bottom: 235px;
+  z-index: 1;
+  color: white;
+  left: 305px;
+  text-shadow:
+   -0.5px -0.5px 0 #DDB046,
+    0.5px -0.5px 0 #DDB046,
+    -0.5px 0.5px 0 #DDB046,
+     0.5px 0.5px 0 #DDB046;
+  animation:
+  bottom-layer-hovering 3s linear infinite,
+  bottom-fade 3s linear 1;
+  transform-origin: bottom;
+
+}
+
+
+@keyframes bottom-layer-hovering {
+   0%, 100% {
+     bottom: 235px;
+   }
+   50% {
+     bottom: 225px;
+  }
+}
+
+/*
+@keyframes bottom-fade {
+    from {
+       opacity: 0;
+       left: 0px;
+     }
+    to   {
+      opacity: 1;
+      left: 305px;
+    }
+}
+*/
+
+.decalart {
+  position: fixed;
+  top: 420px;
+  left: -230px;
+  transform: scaleY(0.8) scaleX(1);
+}
+
+#mybrand {
+  position: fixed;
+  transform: scale(0.75);
+  left: 30px;
+  top: -10px;
+
+}
+
+.mulugeta {
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  position: fixed;
+  font-weight: 100;
+  left: 468px;
+  color: white;
+  bottom: 180px;
+  animation-name: mulugeta-hovering;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes mulugeta-hovering {
+    from {
+      opacity: 0;
+      bottom: 0px;
+     }
+    to   {
+      opacity: 1;
+      bottom: 200px;
+    }
+}
