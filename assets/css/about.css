@@ -63,7 +63,7 @@ a.descriptionlinks:after {
 
 a.descriptionlinksorange:after {
 		content: "";
-	  background: #FFE2BE;
+	  background: #FFECD5;
 	  position: absolute;
 	  height: 0.5em;
 	  width: calc(100% + 4px);
