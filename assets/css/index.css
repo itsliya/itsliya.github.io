@@ -12,12 +12,12 @@ body {
   height: 100%;
   bottom: 10px;
   z-index: -5;
-  transform: rotateY(180deg);
+  margin: 0px;
 }
 
 .navbar-container {
   position: fixed;
-  height: 40px;
+  height: 60px;
   width: 100%;
   overflow: hidden;
 /*  border-bottom-color: white;
@@ -28,52 +28,73 @@ body {
 
 }
 
-a:link, a:active {
-  text-decoration: none;
-  color: white; /* #FFB44E; */
+a {
+	text-decoration: none;
+	position: relative;
+	color: inherit;
 }
 
+/*
+a:after {
+		content: "";
+	  background: white;
+	  position: absolute;
+	  height: 0.2em;
+	  width: calc(100% + 4px);
+	  left: 50%;
+	  bottom: 0;
+	  transform: translateX(-50%);
+	  z-index: -1;
+	  transition: 0.2s;
+}
+*/
 a:visited {
   transition: color 1s ease-out;
+  text-decoration: none;
   color: white; /* #FFB44E; */
 }
 
 .navbar {
   float: left;
   display: inline;
-  font-family: 'Roboto', sans-serif;
-  letter-spacing: 2px;
-  font-weight: 600;
+  font-family: proxima-nova, sans-serif;
+  letter-spacing: 0.1em;
+  font-weight: 400;
   font-style: normal;
   color: white;
-  font-size: 17px;
+  font-size: 14px;
   z-index: 6;
 
 }
 
-#work:hover, #now:hover, #about:hover {
+#home:hover, #work:hover, #now:hover, #about:hover {
   opacity:0.6;
+}
+
+#home {
+  position: fixed;
+  left: 900px;
+  bottom: 523px;
 }
 
 #work {
   position: fixed;
-  left: 850px;
-  bottom: 553px;
+  left: 990px;
+  bottom: 523px;
 
 }
 
-
 #now {
   position: fixed;
-  left: 1000px;
-  bottom: 553px;
+  left: 1080px;
+  bottom: 523px;
 
 }
 
 #about {
   position: fixed;
-  left: 1130px;
-  bottom: 553px;
+  left: 1160px;
+  bottom: 523px;
 
 }
 
@@ -83,6 +104,7 @@ a:visited {
   font-size: 210px;
   font-weight: 1000;
   letter-spacing: 50px;
+  line-height: 0.8em;
   position: fixed;
 
 }
@@ -91,11 +113,11 @@ a:visited {
   float: left;
   position: fixed;
   left: 315px;
-  bottom: 235px;
+  bottom: 205px;
   z-index: 2;
   color: rgba(0, 0, 0, 0.05);
   animation:
-  top-layer-hovering 2s linear 3s infinite forwards,
+  top-layer-hovering 2s linear 1.5s infinite forwards,
   top-fade 3s linear 1 forwards;
   transform-origin: bottom;
 /*  text-shadow:
@@ -108,13 +130,13 @@ a:visited {
 
 @keyframes top-layer-hovering {
   0%, 100% {
-    bottom: 235px;
+    bottom: 205px;
   }
   50% {
-    bottom: 245px;
+    bottom: 195px;
   }
 }
-
+/*
 @keyframes top-fade {
     from {
        opacity: 0;
@@ -125,21 +147,21 @@ a:visited {
       top: 125px;
     }
 }
-
+*/
 
 .middle-layer {
   float: left;
   position: fixed;
   left: 305px;
-  bottom: 235px;
+  bottom: 205px;
   z-index: 2;
   color: white;
-  text-shadow:
+/*  text-shadow:
    -0.5px -0.5px 0 #DDB046,
     0.5px -0.5px 0 #DDB046,
     -0.5px 0.5px 0 #DDB046,
      0.5px 0.5px 0 #DDB046;
-  animation: top-layer-hovering 2s linear 3s infinite forwards;
+  animation: top-layer-hovering 2s linear 1.5s infinite forwards; */
   transform-origin: bottom;
 }
 
@@ -209,28 +231,29 @@ a:visited {
 .decalart {
   position: fixed;
   top: 420px;
-  left: -230px;
-  transform: scaleY(0.8) scaleX(1);
+  left: -330px;
+  transform: scaleY(0.8) scaleX(0.7);
 }
 
 #mybrand {
   position: fixed;
-  transform: scale(0.75);
-  left: 60px;
-  top: -10px;
+  transform: scale(0.18);
+  left: -20px;
+  top: -140px;
 
 }
 
 .mulugeta {
   float: left;
-  font-family: 'Roboto', sans-serif;
-  font-size: 50px;
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
   position: fixed;
   font-weight: 100;
-  left: 460px;
+  left: 315px;
+  bottom: 385px;
   color: white;
-  animation-name: mulugeta-hovering;
-  animation-duration: 3s;
+/*  animation-name: mulugeta-hovering; */
+  animation-duration: 1.5s;
   animation-iteration-count: 1;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
@@ -244,6 +267,6 @@ a:visited {
      }
     to   {
       opacity: 1;
-      bottom: 205px;
+      bottom: 405px;
     }
 }
