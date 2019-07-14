@@ -51,222 +51,119 @@ a:after {
 a:visited {
   transition: color 1s ease-out;
   text-decoration: none;
-  color: white; /* #FFB44E; */
+  color: #4A4A4A; /* #FFB44E; */
 }
 
 .navbar {
   float: left;
   display: inline;
-  font-family: proxima-nova, sans-serif;
+  font-family: futura-pt, sans-serif;
+  color: #4A4A4A;
   letter-spacing: 0.1em;
   font-weight: 400;
   font-style: normal;
-  color: white;
   font-size: 14px;
   z-index: 6;
 
 }
 
-#home:hover, #work:hover, #now:hover, #about:hover {
+#home:hover, #work:hover, #tinkering:hover, #about:hover {
   opacity:0.6;
 }
 
 #home {
   position: fixed;
-  left: 900px;
+  left: 850px;
   bottom: 523px;
 }
 
 #work {
   position: fixed;
-  left: 990px;
+  left: 940px;
   bottom: 523px;
 
 }
 
-#now {
+#tinkering {
   position: fixed;
-  left: 1080px;
+  left: 1020px;
   bottom: 523px;
 
 }
 
 #about {
   position: fixed;
-  left: 1160px;
+  left: 1140px;
   bottom: 523px;
 
 }
 
-.liya {
-  float: left;
-  font-family: 'Arimo', sans-serif;
-  font-size: 210px;
-  font-weight: 1000;
-  letter-spacing: 50px;
-  line-height: 0.8em;
+.hero1 {
+  font-family: 'Playfair Display';
+  color: #4A4A4A;
+  font-style:normal;
+  font-weight: 500;
   position: fixed;
+  font-size: 50px;
+  left: 410px;
+  top: 200px;
+  letter-spacing: 0.02em;
+  animation: fadeInUp 1s both;
+  opacity: 0;
 
 }
 
-.top-layer {
-  float: left;
+.hero2{
+  font-family: 'Playfair Display';
+  font-style: normal;
+  color: #4A4A4A;
   position: fixed;
-  left: 315px;
-  bottom: 205px;
-  z-index: 2;
-  color: rgba(0, 0, 0, 0.05);
-  animation:
-  top-layer-hovering 2s linear 1.5s infinite forwards,
-  top-fade 3s linear 1 forwards;
-  transform-origin: bottom;
-/*  text-shadow:
-   -0.5px -0.5px 0 #DDB046,
-    0.5px -0.5px 0 #DDB046,
-    -0.5px 0.5px 0 #DDB046,
-     0.5px 0.5px 0 #DDB046; */
+  font-size: 46px;
+  font-weight: 400;
+  left: 490px;
+  top: 205px;
+  letter-spacing: 0.02em;
+  animation: fadeInUp 1s both;
+  opacity: 0;
 
 }
 
-@keyframes top-layer-hovering {
-  0%, 100% {
-    bottom: 205px;
-  }
-  50% {
-    bottom: 195px;
-  }
+.hero3 {
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  color: #4A4A4A;
+  position: fixed;
+  font-size: 14px;
+  left: 510px;
+  top: 280px;
+  letter-spacing: 0.1em;
+  animation: fadeInUp 1s both;
+  opacity: 0;
+
 }
-/*
-@keyframes top-fade {
+
+@keyframes fadeInUp {
     from {
-       opacity: 0;
-       top: -100px;
-     }
-    to   {
-      opacity: 1;
-      top: 125px;
+        transform: translate3d(0,70px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
     }
 }
-*/
-
-.middle-layer {
-  float: left;
-  position: fixed;
-  left: 305px;
-  bottom: 205px;
-  z-index: 2;
-  color: white;
-/*  text-shadow:
-   -0.5px -0.5px 0 #DDB046,
-    0.5px -0.5px 0 #DDB046,
-    -0.5px 0.5px 0 #DDB046,
-     0.5px 0.5px 0 #DDB046;
-  animation: top-layer-hovering 2s linear 1.5s infinite forwards; */
-  transform-origin: bottom;
-}
-
-@keyframes middle-layer-hovering {
-  0%, 100% {
-    left: 295px;
-  }
-  50% {
-    left: 315px;
-  }
-}
-
-/*
-@keyframes middle-fade {
-    from {
-       opacity: 0;
-       left: 0px;
-     }
-    to   {
-      opacity: 1;
-      left: 305px;
-    }
-}
-*/
-
-.bottom-layer {
-  float: left;
-  position: fixed;
-  z-index: 1;
-  color: white;
-  left: 300px;
-  text-shadow:
-   -0.5px -0.5px 0 #DDB046,
-    0.5px -0.5px 0 #DDB046,
-    -0.5px 0.5px 0 #DDB046,
-     0.5px 0.5px 0 #DDB046;
-  animation:
-  bottom-layer-hovering 2s ease-in-out infinite,
-  bottom-fade 3s linear 1;
-  transform-origin: bottom;
-
-}
-
-
-@keyframes bottom-layer-hovering {
-   0%, 100% {
-     bottom: 235px;
-   }
-   50% {
-     bottom: 230px;
-  }
-}
-
-/*
-@keyframes bottom-fade {
-    from {
-       opacity: 0;
-       left: 0px;
-     }
-    to   {
-      opacity: 1;
-      left: 305px;
-    }
-}
-*/
 
 .decalart {
   position: fixed;
-  top: 420px;
-  left: -330px;
-  transform: scaleY(0.8) scaleX(0.7);
+  top: 290px;
+  left: -660px;
+  transform: scale(0.53);
 }
 
 #mybrand {
   position: fixed;
-  transform: scale(0.18);
-  left: -20px;
-  top: -140px;
+  transform: scale(0.39);
+  left: 10px;
+  top: -75px;
 
-}
-
-.mulugeta {
-  float: left;
-  font-family: 'Playfair Display', serif;
-  font-size: 20px;
-  position: fixed;
-  font-weight: 100;
-  left: 315px;
-  bottom: 385px;
-  color: white;
-/*  animation-name: mulugeta-hovering; */
-  animation-duration: 1.5s;
-  animation-iteration-count: 1;
-  animation-timing-function: linear;
-  animation-fill-mode: forwards;
-}
-
-
-@keyframes mulugeta-hovering {
-    from {
-      opacity: 0;
-      bottom: 0px;
-     }
-    to   {
-      opacity: 1;
-      bottom: 405px;
-    }
 }
