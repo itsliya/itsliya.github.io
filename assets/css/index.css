@@ -24,8 +24,6 @@ body {
   border-bottom-width: 1px;
   border-bottom-style: solid; */
   z-index: -2;
-  opacity: 1;
-
 }
 
 a {
@@ -68,19 +66,22 @@ a:visited {
 }
 
 #home:hover, #work:hover, #tinkering:hover, #about:hover {
-  opacity:0.6;
+  opacity: 0.5;
 }
 
 #home {
   position: fixed;
   left: 850px;
   bottom: 523px;
+  animation: fadeIn 3s both 2s;
+
 }
 
 #work {
   position: fixed;
   left: 940px;
   bottom: 523px;
+  animation: fadeIn 3s both 2s;
 
 }
 
@@ -88,6 +89,7 @@ a:visited {
   position: fixed;
   left: 1020px;
   bottom: 523px;
+  animation: fadeIn 3s both 2s;
 
 }
 
@@ -95,9 +97,19 @@ a:visited {
   position: fixed;
   left: 1140px;
   bottom: 523px;
+  animation: fadeIn 3s both 2s;
 
 }
-
+/*
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+*/
 .hero1 {
   font-family: 'Playfair Display';
   color: #4A4A4A;
@@ -106,7 +118,7 @@ a:visited {
   position: fixed;
   font-size: 50px;
   left: 410px;
-  top: 200px;
+  top: 190px;
   letter-spacing: 0.02em;
   animation: fadeInUp 1.5s both;
   opacity: 0;
@@ -114,14 +126,14 @@ a:visited {
 }
 
 .hero2{
-  font-family: 'Playfair Display';
+  font-family: 'Playfair Display', cursive;
   font-style: normal;
   color: #4A4A4A;
   position: fixed;
   font-size: 46px;
   font-weight: 400;
   left: 490px;
-  top: 205px;
+  top: 195px;
   letter-spacing: 0.02em;
   animation: fadeInUp 1.5s both;
   opacity: 0;
@@ -135,7 +147,7 @@ a:visited {
   position: fixed;
   font-size: 14px;
   left: 510px;
-  top: 280px;
+  top: 270px;
   letter-spacing: 0.1em;
   animation: fadeInUp 1.8s both 1s;
   opacity: 0;
