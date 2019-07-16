@@ -139,22 +139,25 @@ a.descriptionlinksorange:hover:after {
 }
 
 .myphoto {
-  transform: scale(0.7);
-  left: 680px;
+  transform: scale(0.65);
+  left: 670px;
   position: fixed;
-  opacity: 0.9;
-}
-
-.myphoto:hover {
   opacity: 1;
 }
 
+.myphoto:hover {
+  animation: wave 0.5s both 2;
+}
+
 @keyframes wave {
-  from {
-    left: 705px;
+  0% {
+    left: 670px;
   }
-  to {
+  50% {
     left: 680px;
+  }
+  100% {
+    left: 670px;
   }
 }
 

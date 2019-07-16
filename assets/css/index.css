@@ -32,11 +32,17 @@ a {
 a:visited {
   transition: color 1s ease-out;
   text-decoration: none;
-  color: #4A4A4A; 
+  color: #4A4A4A;
 }
 
-a:hover {
-  opacity: 0.5;
+a.links:hover {
+  transition: opacity 0.1s ease-in;
+  opacity: 0.6;
+}
+
+a.copy:hover {
+  transition: color 0.2s ease;
+  opacity: 0.6;
 }
 
 .navbar {
@@ -55,7 +61,7 @@ a:hover {
   position: fixed;
   left: 850px;
   bottom: 523px;
-  animation: fadeIn 3s both 2s;
+  animation: fadeIn 3s both 2.5s;
 
 }
 
@@ -63,7 +69,7 @@ a:hover {
   position: fixed;
   left: 940px;
   bottom: 523px;
-  animation: fadeIn 3s both 2s;
+  animation: fadeIn 3s both 2.5s;
 
 }
 
@@ -71,7 +77,7 @@ a:hover {
   position: fixed;
   left: 1020px;
   bottom: 523px;
-  animation: fadeIn 3s both 2s;
+  animation: fadeIn 3s both 2.5s;
 
 }
 
@@ -79,7 +85,7 @@ a:hover {
   position: fixed;
   left: 1140px;
   bottom: 523px;
-  animation: fadeIn 3s both 2s;
+  animation: fadeIn 3s both 2.5s;
 
 }
 
@@ -99,11 +105,12 @@ a:hover {
   font-weight: 500;
   position: fixed;
   font-size: 50px;
-  left: 380px;
+  left: 385px;
   top: 190px;
   letter-spacing: 0.02em;
   animation: fadeInUp 1.5s both;
   opacity: 0;
+  text-rendering: optimizeLegibility;
 
 }
 
@@ -114,11 +121,12 @@ a:hover {
   position: fixed;
   font-size: 46px;
   font-weight: 400;
-  left: 530px;
+  left: 535px;
   top: 195px;
   letter-spacing: 0.02em;
   animation: fadeInUp 1.5s both;
   opacity: 0;
+  text-rendering: optimizeLegibility;
 
 }
 
@@ -128,11 +136,12 @@ a:hover {
   color: #4A4A4A;
   position: fixed;
   font-size: 14px;
-  left: 440px;
+  left: 445px;
   top: 270px;
   letter-spacing: 0.1em;
   animation: fadeInUp 1.8s both 1s;
   opacity: 0;
+  text-rendering: optimizeLegibility;
 
 }
 
@@ -159,6 +168,6 @@ a:hover {
   transform: scale(0.39);
   left: 10px;
   top: -70px;
-  animation: fadeIn 3s both 2s;
+  animation: fadeIn 3s both 2.5s;
 
 }
