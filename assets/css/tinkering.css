@@ -1,6 +1,9 @@
 body {
-  background: black;
   margin: 0px;
+}
+
+@-ms-viewport{
+  width: device-width;
 }
 
 .background {
@@ -13,51 +16,125 @@ body {
 
 .navbar-container {
   position: fixed;
-  height: 40px;
+  height: 60px;
   width: 100%;
   overflow: hidden;
-  border-bottom-color: white;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
   z-index: -2;
   background: white;
-  opacity: 0.8;
+  margin: 0px;
+  -webkit-box-shadow: 0 8px 10px -6px #999;
+   -moz-box-shadow: 0 8px 10px -6px #999;
+   box-shadow: 0 8px 10px -6px #999;
 
 }
 
 .navbar {
-  font-family: 'Arimo', sans-serif;
-  font-weight: 600;
+  float: left;
+  display: inline;
+  font-family: futura-pt, sans-serif;
+  color: #4A4A4A;
+  letter-spacing: 0.1em;
+  font-weight: 400;
   font-style: normal;
-  color: #FFB44E;
-  font-size: 16px;
+  font-size: 14px;
   z-index: 6;
-
 }
 
-a:link, a:visited {
-  color: #FFB44E;
-  text-decoration: none;
+#home {
+  position: fixed;
+  left: 850px;
+  bottom: 550px;
 }
 
 #work {
   position: fixed;
-  left: 850px;
-  bottom: 563px;
-
+  left: 940px;
+  bottom: 550px;
 }
 
-
-#now {
+#tinkering {
   position: fixed;
-  left: 1000px;
-  bottom: 563px;
-
+  left: 1020px;
+  bottom: 550px;
 }
 
 #about {
   position: fixed;
-  left: 1130px;
-  bottom: 563px;
+  left: 1140px;
+  bottom: 550px;
+}
 
+a {
+	text-decoration: none;
+	position: relative;
+	color: inherit;
+}
+
+
+a.descriptionlinks:after {
+		content: "";
+    background-image: linear-gradient(0deg, #FFD5E5 0%, #FFF7D3 100%);
+	 /* background: #F2EFFF; */
+	  position: absolute;
+	  height: 0.5em;
+	  width: calc(100% + 4px);
+	  left: 50%;
+	  bottom: 0;
+	  transform: translateX(-50%);
+	  z-index: -1;
+	  transition: 0.2s;
+}
+
+a.descriptionlinksorange:after {
+		content: "";
+    background-image: linear-gradient(0deg, #FFD5E5 0%, #FFF7D3 100%);
+/*	  background: #FFECD5; */
+	  position: absolute;
+	  height: 0.5em;
+	  width: calc(100% + 4px);
+	  left: 50%;
+	  bottom: 0;
+	  transform: translateX(-50%);
+	  z-index: -1;
+	  transition: 0.2s;
+}
+
+
+a.descriptionlinks:hover:after {
+		height: 1.1em;
+	}
+
+
+a.descriptionlinksorange:hover:after {
+		height: 1.1em;
+	}
+
+
+#home:hover, #work:hover, #tinkering:hover, #about:hover {
+  opacity:0.6;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+}
+
+.navbar a:hover {
+  text-decoration: none;
+  position: relative;
+  color: #4A4A4A;
+}
+
+#mybrand {
+  position: fixed;
+  transform: scale(0.3);
+  left: 10px;
+  top: -95px;
+}
+
+a.mybrand:after {
+  text-decoration: none;
+  position: relative;
 }

@@ -61,7 +61,7 @@ a.copy:hover {
   position: fixed;
   left: 850px;
   bottom: 523px;
-  animation: fadeIn 3s both 2.5s;
+  animation: fadeIn 1s both 2.5s;
 
 }
 
@@ -69,7 +69,7 @@ a.copy:hover {
   position: fixed;
   left: 940px;
   bottom: 523px;
-  animation: fadeIn 3s both 2.5s;
+  animation: fadeIn 1s both 2.5s;
 
 }
 
@@ -77,7 +77,7 @@ a.copy:hover {
   position: fixed;
   left: 1020px;
   bottom: 523px;
-  animation: fadeIn 3s both 2.5s;
+  animation: fadeIn 1s both 2.5s;
 
 }
 
@@ -85,7 +85,7 @@ a.copy:hover {
   position: fixed;
   left: 1140px;
   bottom: 523px;
-  animation: fadeIn 3s both 2.5s;
+  animation: fadeIn 1s both 2.5s;
 
 }
 
@@ -99,13 +99,13 @@ a.copy:hover {
 }
 
 .hero1 {
-  font-family: 'Playfair Display';
-  color: #4A4A4A;
-  font-style:normal;
+  font-family: 'Homemade Apple', cursive;
+  color: #5F5F5F;
+  font-style: normal;
   font-weight: 500;
   position: fixed;
   font-size: 50px;
-  left: 385px;
+  left: 465px;
   top: 190px;
   letter-spacing: 0.02em;
   animation: fadeInUp 1.5s both;
@@ -114,18 +114,18 @@ a.copy:hover {
 
 }
 
-.hero2{
-  font-family: 'Playfair Display', cursive;
-  font-style: normal;
-  color: #4A4A4A;
+.hero2 {
+  font-family: 'Homemade Apple', cursive;
+  color: #5F5F5F;
   position: fixed;
-  font-size: 46px;
+  font-size: 45px;
   font-weight: 400;
-  left: 535px;
+  left: 560px;
   top: 195px;
   letter-spacing: 0.02em;
   animation: fadeInUp 1.5s both;
   opacity: 0;
+  word-spacing: 0.4em;
   text-rendering: optimizeLegibility;
 
 }
@@ -135,11 +135,11 @@ a.copy:hover {
   font-weight: 400;
   color: #4A4A4A;
   position: fixed;
-  font-size: 14px;
-  left: 445px;
-  top: 270px;
+  font-size: 13px;
+  left: 435px;
+  top: 295px;
   letter-spacing: 0.1em;
-  animation: fadeInUp 1.8s both 1s;
+  animation: fadeInUp 1.8s both 1.5s;
   opacity: 0;
   text-rendering: optimizeLegibility;
 
@@ -168,6 +168,6 @@ a.copy:hover {
   transform: scale(0.39);
   left: 10px;
   top: -70px;
-  animation: fadeIn 3s both 2.5s;
+  animation: fadeIn 1s both 2.5s;
 
 }
