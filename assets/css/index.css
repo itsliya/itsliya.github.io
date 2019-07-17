@@ -99,14 +99,14 @@ a.copy:hover {
 }
 
 .hero1 {
-  font-family: futura-pt, sans-serif;
+  font-family: 'Homemade Apple', cursive;
   color: #5F5F5F;
   font-style: normal;
   font-weight: 500;
   position: fixed;
-  font-size: 60px;
+  font-size: 50px;
   left: 465px;
-  top: 195px;
+  top: 190px;
   letter-spacing: 0.02em;
   animation: fadeInUp 1.5s both;
   opacity: 0;
