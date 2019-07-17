@@ -144,7 +144,7 @@ a.mybrand:after {
   position: relative;
   display: inline;
   top: 120px;
-  left: 20%;
+  left: 23%;
   font-family: futura-pt, sans-serif;
   color: #696969;
   letter-spacing: 0.1em;
@@ -159,7 +159,7 @@ a.mybrand:after {
   position: relative;
   display: inline;
   bottom: 1215px;
-  left: 67.5%;
+  left: 63.5%;
   font-family: futura-pt, sans-serif;
   color: #696969;
   letter-spacing: 0.1em;
@@ -172,7 +172,7 @@ a.mybrand:after {
 .study-1 {
   position: relative;
   top: 150px;
-  left: 10%;
+  left: 12%;
   z-index: 3;
   transform: scale(0.9);
   filter: blur(0);
@@ -188,7 +188,7 @@ a.mybrand:after {
 .description-1 {
   position: relative;
   top: 180px;
-  left: 12%;
+  left: 14%;
   width: 30%;
   z-index: -4;
   font-family: futura-pt, sans-serif;
@@ -206,7 +206,7 @@ a.mybrand:after {
 .study-2 {
   position: relative;
   top: 180px;
-  left: 7%;
+  left: 9%;
   z-index: 3;
   transform: scale(0.76);
   filter: blur(0);
@@ -220,7 +220,7 @@ a.mybrand:after {
 .description-2 {
   position: relative;
   top: 170px;
-  left: 12%;
+  left: 14%;
   width: 30%;
   z-index: -4;
   font-family: futura-pt, sans-serif;
@@ -237,7 +237,7 @@ a.mybrand:after {
 .study-3 {
   position: relative;
   top: 200px;
-  left: 12%;
+  left: 14%;
   z-index: 3;
   height: 300px;
   width: 380px;
@@ -251,7 +251,7 @@ a.mybrand:after {
 .description-3 {
   position: relative;
   top: 230px;
-  left: 12%;
+  left: 14%;
   width: 30%;
   z-index: -4;
   font-family: futura-pt, sans-serif;
@@ -268,7 +268,7 @@ a.mybrand:after {
 .study-4 {
   position: relative;
   top: -1175px;
-  left: 60%;
+  left: 56%;
   z-index: 3;
   height: 255px;
   width: 380px;
@@ -282,7 +282,7 @@ a.mybrand:after {
 .description-4 {
   position: relative;
   bottom: 1135px;
-  left: 60%;
+  left: 56%;
   width: 30%;
   z-index: -4;
   font-family: futura-pt, sans-serif;
@@ -299,7 +299,7 @@ a.mybrand:after {
 .study-5 {
   position: relative;
   top: -1080px;
-  left: 60%;
+  left: 56%;
   z-index: 3;
   height: 255px;
   width: 400px;
@@ -308,7 +308,7 @@ a.mybrand:after {
 .description-5 {
   position: relative;
   bottom: 1050px;
-  left: 60%;
+  left: 56%;
   width: 30%;
   z-index: -4;
   font-family: futura-pt, sans-serif;
