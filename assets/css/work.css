@@ -175,14 +175,8 @@ a.mybrand:after {
   left: 12%;
   z-index: 3;
   transform: scale(0.9);
-  filter: blur(0);
   width: 420px;
 
-}
-
-.study-1:hover {
-  filter: blur(0.3rem);
-  transition: blur 0.5s ease-in-out;
 }
 
 .description-1 {
@@ -209,12 +203,6 @@ a.mybrand:after {
   left: 9%;
   z-index: 3;
   transform: scale(0.76);
-  filter: blur(0);
-}
-
-.study-2:hover {
-  filter: blur(0.3rem);
-  transition: blur 0.5s ease-in-out;
 }
 
 .description-2 {
@@ -241,13 +229,8 @@ a.mybrand:after {
   z-index: 3;
   height: 300px;
   width: 380px;
-  filter: blur(0);
 }
 
-.study-3:hover {
-  filter: blur(0.3rem);
-  transition: blur 0.5s ease-in-out;
-}
 .description-3 {
   position: relative;
   top: 230px;
@@ -272,13 +255,8 @@ a.mybrand:after {
   z-index: 3;
   height: 255px;
   width: 380px;
-  filter: blur(0);
 }
 
-.study-4:hover {
-  filter: blur(0.3rem);
-  transition: blur 0.5s ease-in-out;
-}
 .description-4 {
   position: relative;
   bottom: 1135px;
@@ -298,16 +276,16 @@ a.mybrand:after {
 
 .study-5 {
   position: relative;
-  top: -1080px;
+  top: -1090px;
   left: 56%;
   z-index: 3;
-  height: 255px;
-  width: 400px;
+  height: 270px;
+  width: 385px;
 }
 
 .description-5 {
   position: relative;
-  bottom: 1050px;
+  bottom: 1065px;
   left: 56%;
   width: 30%;
   z-index: -4;
