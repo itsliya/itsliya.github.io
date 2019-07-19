@@ -80,20 +80,28 @@
       <header class="design">Design</header>
       <div class="case-studies-design">
 
-      <div class="hideme">
+      <div class="hideme2">
         <a href="https://github.com/itsliya/travel-website" target="_blank"><img class="study-4" src="assets/img/travel.png"></img></a>
       </div>
 
-      <div class="hideme">
+      <div class="hideme2">
         <div class="description-4">Designed and programmed a travel website using HTML, CSS, and JavaScript/jQuery.
           Disclaimer: I do not own rights to any of the background videos.</div>
       </div>
+
       </div>
       <script>
             $(document).ready(function() {
                 $(window).scroll( function(){
                     $('.hideme').each( function(i){
                         var bottom_of_object = $(this).position().top + $(this).outerHeight();
+                        var bottom_of_window = $(window).scrollTop() + $(window).height();
+                        if( bottom_of_window > bottom_of_object ){
+                            $(this).animate({'opacity':'1'},1500);
+                        }
+                    });
+                    $('.hideme2').each( function(i){
+                        var bottom_of_object = $(this).position().top - $(this).outerHeight();
                         var bottom_of_window = $(window).scrollTop() + $(window).height();
                         if( bottom_of_window > bottom_of_object ){
                             $(this).animate({'opacity':'1'},1500);
