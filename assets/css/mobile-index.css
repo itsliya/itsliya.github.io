@@ -1,0 +1,33 @@
+.small-screen {
+  visibility: visible;
+}
+.decalart {
+  visibility: hidden;
+}
+.small-screen {
+  width: 100%;
+  position: fixed;
+  z-index: -5;
+}
+.hero1 {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+}
+.hero2 {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+}
+.hero3 {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+}
+.navbar-container {
+  position: fixed;
+  height: 20px;
+  width: 100%;
+  overflow: hidden;
+  z-index: -2;
+}
