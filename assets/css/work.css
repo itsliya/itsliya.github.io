@@ -316,10 +316,24 @@ a.mybrand:after {
   text-align: left;
 }
 
-.hideme {
-    opacity:0;
+.come-in {
+  transform: translate3d(0, 120px, 0);
+  animation: come-in 0.8s ease forwards;
 }
 
-.hideme2 {
-    opacity:0;
+.already-visible {
+  transform: translate3d(0, 0, 0);
+}
+
+@keyframes come-in {
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+    transition: opacity 0.6s ease forwards;
+  }
+}
+
+.hideme {
+  transform: translate3d(0, 120px, 0);
+  opacity: 0;
 }

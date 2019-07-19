@@ -45,6 +45,7 @@
       </div>
       <header class="code">Code</header>
       <div class="case-studies-code">
+
         <div class="hideme">
         <a href="https://github.com/itsliya/scheme-interpreter" target="_blank">
           <img class="study-1" src="assets/img/money_tree.png"></img></a>
@@ -80,35 +81,65 @@
       <header class="design">Design</header>
       <div class="case-studies-design">
 
-      <div class="hideme2">
+      <div class="hideme">
         <a href="https://github.com/itsliya/travel-website" target="_blank"><img class="study-4" src="assets/img/travel.png"></img></a>
       </div>
 
-      <div class="hideme2">
+      <div class="hideme">
         <div class="description-4">Designed and programmed a travel website using HTML, CSS, and JavaScript/jQuery.
           Disclaimer: I do not own rights to any of the background videos.</div>
       </div>
 
       </div>
       <script>
-            $(document).ready(function() {
-                $(window).scroll( function(){
-                    $('.hideme').each( function(i){
-                        var bottom_of_object = $(this).position().top + $(this).outerHeight();
-                        var bottom_of_window = $(window).scrollTop() + $(window).height();
-                        if( bottom_of_window > bottom_of_object ){
-                            $(this).animate({'opacity':'1'},1500);
-                        }
-                    });
-                    $('.hideme2').each( function(i){
-                        var bottom_of_object = $(this).position().top - $(this).outerHeight();
-                        var bottom_of_window = $(window).scrollTop() + $(window).height();
-                        if( bottom_of_window > bottom_of_object ){
-                            $(this).animate({'opacity':'1'},1500);
-                        }
-                    });
-                });
-            });
+      (function($) {
+
+        /**
+         * Copyright 2012, Digital Fusion
+         * Licensed under the MIT license.
+         * http://teamdf.com/jquery-plugins/license/
+         *
+         * @author Sam Sehnert
+         * @desc A small plugin that checks whether elements are within
+         *     the user visible viewport of a web browser.
+         *     only accounts for vertical position, not horizontal.
+         */
+
+        $.fn.visible = function(partial) {
+
+          var $t = $(this),
+            $w = $(window),
+            viewTop = $w.scrollTop(),
+            viewBottom = viewTop + $w.height(),
+            _top = $t.offset().top,
+            _bottom = _top + $t.height(),
+            compareTop = partial === true ? _bottom : _top,
+            compareBottom = partial === true ? _top : _bottom;
+
+          return ((compareBottom <= viewBottom) && (compareTop >= viewTop));
+
+        };
+
+      })(jQuery);
+
+      var win = $(window);
+      var allMods = $(".hideme");
+
+      allMods.each(function(i, el) {
+        var el = $(el);
+        if (el.visible(true)) {
+          el.addClass("already-visible");
+        }
+      });
+
+      win.scroll(function(event) {
+        allMods.each(function(i, el) {
+          var el = $(el);
+          if (el.visible(true)) {
+            el.addClass("come-in");
+          }
+        });
+      });
       </script>
 </body>
 </html>
