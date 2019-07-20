@@ -1,7 +1,13 @@
 
 .small-screen {
   position: fixed;
-  z-index: -1;
+}
+
+img {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+
 }
 
 .hero1 {
