@@ -4,6 +4,7 @@ body {
 
 .small-screen {
   position: fixed;
+  visibility: visible;
 }
 
 img {
