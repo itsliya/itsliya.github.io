@@ -1,9 +1,7 @@
+
 .small-screen {
   position: fixed;
-  z-index: -5;
-  transform: scale(2);
-  width: 414px;
-
+  z-index: -1;
 }
 
 .hero1 {
