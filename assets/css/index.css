@@ -5,9 +5,6 @@ body {
 @-ms-viewport{
   width: device-width;
 }
-.small-screen {
-  visibility: hidden;
-}
 
 .background {
   position: fixed;
