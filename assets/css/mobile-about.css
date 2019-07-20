@@ -2,6 +2,11 @@ body {
   margin: 0px;
 }
 
+.small-screen {
+  position: fixed;
+  visibility: visible;
+}
+
 .small-screen img {
   position: fixed;
   top: 350px;
