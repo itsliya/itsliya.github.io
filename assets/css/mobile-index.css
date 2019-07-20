@@ -14,6 +14,53 @@ img {
 }
 
 .hero1 {
+  font-family: 'Homemade Apple', cursive;
+  color: #5F5F5F;
+  font-style: normal;
+  font-weight: 500;
+  position: fixed;
+  font-size: 50px;
+  left: 470px;
+  top: 190px;
+  letter-spacing: 0.02em;
+  animation: fadeInUp 1.5s both;
+  opacity: 0;
+  text-rendering: optimizeLegibility;
+
+}
+
+.hero2 {
+  font-family: 'Homemade Apple', cursive;
+  color: #5F5F5F;
+  position: fixed;
+  font-size: 45px;
+  font-weight: 400;
+  left: 565px;
+  top: 195px;
+  letter-spacing: 0.02em;
+  animation: fadeInUp 1.5s both;
+  opacity: 0;
+  word-spacing: 0.4em;
+  text-rendering: optimizeLegibility;
+
+}
+
+.hero3 {
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  color: #4A4A4A;
+  position: fixed;
+  font-size: 13px;
+  left: 436px;
+  top: 295px;
+  letter-spacing: 0.1em;
+  animation: fadeInUp 1.8s both 1.5s;
+  opacity: 0;
+  text-rendering: optimizeLegibility;
+
+}
+
+.hero1 {
   position: fixed;
   left: 100px;
   top: 100px;

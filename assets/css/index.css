@@ -6,6 +6,11 @@ body {
   width: device-width;
 }
 
+.small-screen {
+  visibility: hidden;
+}
+
+
 .background {
   position: fixed;
   width: 100%;
