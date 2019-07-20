@@ -1,38 +1,37 @@
 .small-screen {
-  visibility: visible;
-}
-
-.decalart {
-  visibility: hidden;
-}
-
-.small-screen {
   position: fixed;
   z-index: -5;
   transform: scale(2);
+  width: 414px;
+
 }
 
 .hero1 {
   position: fixed;
   left: 100px;
   top: 100px;
+  width: 414px;
+
 }
 .hero2 {
   position: fixed;
   left: 100px;
   top: 100px;
+  width: 414px;
 
 }
 .hero3 {
   position: fixed;
   left: 100px;
   top: 100px;
+  width: 414px;
 }
 .navbar-container {
   position: fixed;
   height: 20px;
-  width: 80%;
   left: 100px;
   overflow: hidden;
   z-index: -2;
+  width: 414px;
+
 }
