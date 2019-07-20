@@ -1,0 +1,107 @@
+body {
+  margin: 0px;
+  height: 100vh;
+  width: 100vw;
+}
+
+ .mybrand img {
+  position: fixed;
+  transform: scale(0.3);
+  left: -20px;
+  top: -80px;
+}
+
+.navbar-container {
+  position: fixed;
+  height: 20px;
+  height: 15%;
+  overflow: hidden;
+  z-index: -2;
+  width: 100%;
+  background-color: white;
+  margin: 0px;
+  -webkit-box-shadow: 0 8px 10px -6px #999;
+   -moz-box-shadow: 0 8px 10px -6px #999;
+   box-shadow: 0 8px 10px -6px #999;
+
+}
+
+.navbar {
+  float: left;
+  display: inline;
+  font-family: futura-pt, sans-serif;
+  color: #4A4A4A;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  z-index: 6;
+}
+
+#home {
+  position: fixed;
+  left: 190px;
+  bottom: 530px;
+
+}
+
+#work {
+  position: fixed;
+  left: 250px;
+  bottom: 530px;
+
+}
+
+#tinkering {
+  position: fixed;
+  left: 310px;
+  bottom: 530px;
+
+}
+
+#about {
+  position: fixed;
+  left: 400px;
+  bottom: 530px;
+
+}
+
+a {
+	text-decoration: none;
+	position: relative;
+	color: inherit;
+}
+
+#home:hover, #work:hover, #tinkering:hover, #about:hover {
+  opacity:0.6;
+}
+
+a:visited {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+}
+
+.navbar a:hover {
+  text-decoration: none;
+  position: relative;
+  color: #4A4A4A;
+}
+a.mybrand:after {
+  text-decoration: none;
+  position: relative;
+}
+
+.notice {
+  position: relative;
+  display: inline;
+  top: 130px;
+  left: 32%;
+  font-family: futura-pt, sans-serif;
+  color: #5C5C5C;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 45px;
+  z-index: -3;
+}

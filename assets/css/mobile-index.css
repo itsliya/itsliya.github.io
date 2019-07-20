@@ -12,12 +12,11 @@ body {
   transform: scale(1.1) scaleY(0.9);
 }
 
-.mybrand img {
+#mybrand img {
   position: fixed;
   transform: scale(0.3);
   left: -20px;
-  top: -70px;
-  width: 100%;
+  top: -80px;
 }
 
 .hero1 {

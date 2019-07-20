@@ -4,7 +4,7 @@ body {
   width: 100vw;
 }
 
- .mybrand img {
+.mybrand img {
   position: fixed;
   transform: scale(0.3);
   left: -20px;
