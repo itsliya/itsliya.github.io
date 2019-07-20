@@ -41,34 +41,34 @@ body {
 #home {
   position: fixed;
   left: 190px;
-  bottom: 530px;
+  bottom: 730px;
 
 }
 
 #work {
   position: fixed;
   left: 250px;
-  bottom: 530px;
+  bottom: 730px;
 
 }
 
 #tinkering {
   position: fixed;
   left: 310px;
-  bottom: 530px;
+  bottom: 730px;
 
 }
 
 #about {
   position: fixed;
   left: 400px;
-  bottom: 530px;
+  bottom: 730px;
 
 }
 
 a {
 	text-decoration: none;
-	position: relative;
+	position: fixed;
 	color: inherit;
 }
 
