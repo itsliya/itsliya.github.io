@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" type="text/css" href="assets/css/about.css"/>
+  <link rel="stylesheet" type="text/css" href="assets/css/mobile-about.css"/>
   <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon.ico">
   <link rel="stylesheet" href="https://use.typekit.net/des1azm.css">
   <link href="https://fonts.googleapis.com/css?family=Arimo&display=swap" rel="stylesheet">
@@ -14,11 +14,6 @@
   <title>About</title>
   </head>
   <body>
-    <script type="text/javascript">
-      if (screen.width <= 699) {
-      document.location = "mobile-about.html";
-      }
-    </script>
     <nav class="navbar-container"></nav>
     <div class="navbar">
       <div id="mybrand">
@@ -83,13 +78,19 @@
               and the <a class="descriptionlinks" href="http://www.ucberkeleybessa.com/">National Society of Black Engineers (NSBE)</a>!
             </li>
           </div>
-        </ul>
+          </ul>
       </div>
       <div class="myphoto"><img src=assets/img/IMG_2198.JPG></div>
       <script>
-      $('body').css('display', 'none');
-      $('body').fadeIn(900);
-      });
+        $(window).scroll(function() {
+            $('.myphoto').each(function(){
+                var imagePos = $(this).offset().top;
+                var topOfWindow = $(window).scrollTop();
+                if (imagePos < topOfWindow+400) {
+                    $(this).addClass("wave");
+                }
+            });
+        });
       </script>
   </body>
   </html>
