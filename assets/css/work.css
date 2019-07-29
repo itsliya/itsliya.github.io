@@ -71,7 +71,6 @@ a {
 	color: inherit;
 }
 
-
 a.descriptionlinks:after {
 		content: "";
     background-image: linear-gradient(0deg, #FFD5E5 0%, #FFF7D3 100%);

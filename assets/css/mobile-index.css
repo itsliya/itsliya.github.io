@@ -6,7 +6,7 @@ body {
 
 .small-screen img {
   position: fixed;
-  top: 350px;
+  top: 370px;
   left: 20px;
   z-index: -6;
   transform: scale(1.1) scaleY(0.9);
