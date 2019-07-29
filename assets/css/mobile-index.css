@@ -25,8 +25,8 @@ body {
   font-style: normal;
   font-weight: 500;
   position: fixed;
-  font-size: 40px;
-  left: 120px;
+  font-size: 30px;
+  left: 160px;
   top: 195px;
   letter-spacing: 0.02em;
   opacity: 1;
@@ -38,9 +38,9 @@ body {
   font-family: 'Homemade Apple', cursive;
   color: #5F5F5F;
   position: fixed;
-  left: 200px;
+  left: 220px;
   top: 200px;
-  font-size: 35px;
+  font-size: 25px;
   font-weight: 400;
   letter-spacing: 0.02em;
   opacity: 1;
@@ -53,10 +53,10 @@ body {
   font-family: futura-pt, sans-serif;
   font-weight: 400;
   color: #4A4A4A;
-  left: 60px;
+  left: 110px;
   top: 300px;
   position: fixed;
-  font-size: 13px;
+  font-size: 9px;
   letter-spacing: 0.1em;
   animation: fadeIn 1s both 1s;
   opacity: 1;
