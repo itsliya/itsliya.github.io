@@ -75,7 +75,7 @@ body {
   height: 20px;
   left: 100px;
   overflow: hidden;
-  z-index: -2;
+  z-index: 6;
   width: 414px;
   top: 10%;
 
@@ -113,7 +113,7 @@ a.copy:hover {
   font-weight: 400;
   font-style: normal;
   font-size: 14px;
-  z-index: 6;
+  z-index: 8;
 }
 
 #home {
