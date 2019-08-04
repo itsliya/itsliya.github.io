@@ -32,6 +32,7 @@ body {
   letter-spacing: 0.02em;
   opacity: 1;
   text-rendering: optimizeLegibility;
+  transform: scale(2);
 
 }
 
@@ -47,6 +48,7 @@ body {
   opacity: 1;
   word-spacing: 0.4em;
   text-rendering: optimizeLegibility;
+  transform: scale(2);
 
 }
 
@@ -62,6 +64,7 @@ body {
   animation: fadeIn 1s both 1s;
   opacity: 1;
   text-rendering: optimizeLegibility;
+  transform: scale(2);
 
 }
 
@@ -72,7 +75,7 @@ body {
   overflow: hidden;
   z-index: -2;
   width: 414px;
-  top: 600px;
+  top: 900px;
 
 }
 
