@@ -10,6 +10,8 @@ body {
   top: 370px;
   left: 20px;
   z-index: -6;
+  width: 100%;
+  height: auto;
   transform: scale(1.1) scaleY(0.9);
 }
 
