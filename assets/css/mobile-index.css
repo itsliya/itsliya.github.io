@@ -12,12 +12,13 @@ body {
   z-index: -6;
   width: 100%;
   height: auto;
+  bottom: 500px;
   transform: scale(1.1) scaleY(0.9);
 }
 
 #mybrand img {
   position: fixed;
-  transform: scale(0.3);
+  transform: scale(0.5);
   left: -20px;
   top: -80px;
 }
