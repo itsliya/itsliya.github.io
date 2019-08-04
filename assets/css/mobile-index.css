@@ -7,7 +7,7 @@ body {
 
 .small-screen img {
   position: fixed;
-  top: 370px;
+  bottom: 600px;
   left: 20px;
   z-index: -6;
   width: 100%;
@@ -29,7 +29,7 @@ body {
   font-weight: 500;
   position: fixed;
   font-size: 30px;
-  left: 160px;
+  left: 170px;
   top: 195px;
   letter-spacing: 0.02em;
   opacity: 1;
@@ -42,8 +42,8 @@ body {
   font-family: 'Homemade Apple', cursive;
   color: #5F5F5F;
   position: fixed;
-  left: 220px;
-  top: 200px;
+  left: 270px;
+  top: 100px;
   font-size: 25px;
   font-weight: 400;
   letter-spacing: 0.02em;
@@ -58,8 +58,8 @@ body {
   font-family: futura-pt, sans-serif;
   font-weight: 400;
   color: #4A4A4A;
-  left: 110px;
-  top: 300px;
+  left: 170px;
+  top: 100px;
   position: fixed;
   font-size: 9px;
   letter-spacing: 0.1em;
@@ -77,7 +77,7 @@ body {
   overflow: hidden;
   z-index: -2;
   width: 414px;
-  top: 900px;
+  top: 10%;
 
 }
 
