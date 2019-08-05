@@ -139,6 +139,11 @@ a.mybrand:after {
   position: relative;
 }
 
+img:hover {
+  opacity: 0.8;
+  transition: opacity ease-in-out 1s;
+}
+
 .arrow {
   position: relative;
   bottom: -20rem;

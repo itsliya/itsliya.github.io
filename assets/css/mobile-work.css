@@ -11,6 +11,11 @@ body {
   top: -80px;
 }
 
+img:hover {
+  opacity: 0.8;
+  transition: opacity ease-in-out 1s;
+}
+
 .navbar-container {
   position: fixed;
   height: 20px;
