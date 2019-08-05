@@ -139,9 +139,14 @@ a.mybrand:after {
   position: relative;
 }
 
-img:hover {
-  opacity: 0.8;
-  transition: opacity ease-in-out 1s;
+.case-studies-code img:hover {
+  filter: drop-shadow(6px 6px 10px gold);
+  transition: filter ease-in-out 0.5s;
+}
+
+.case-studies-design img:hover {
+  filter: drop-shadow(6px 6px 10px gold);
+  transition: filter ease-in-out 0.5s;
 }
 
 .arrow {
@@ -162,6 +167,8 @@ img:hover {
 
 .bounce {
   animation: bounce 2s infinite;
+  on-scroll
+  visibility: hidden;
 }
 
 @keyframes bounce {
