@@ -30,8 +30,8 @@ body {
   font-weight: 500;
   position: fixed;
   font-size: 22px;
-  left: 130px;
-  top: 205px;
+  left: 50%;
+  bottom: 40%;
   letter-spacing: 0.02em;
   opacity: 1;
   text-rendering: optimizeLegibility;
@@ -43,8 +43,8 @@ body {
   font-family: 'Homemade Apple', cursive;
   color: #5F5F5F;
   position: fixed;
-  left: 260px;
-  top: 205px;
+  left: 55%;
+  bottom: 40%;
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0.02em;
@@ -59,8 +59,8 @@ body {
   font-family: futura-pt, sans-serif;
   font-weight: 400;
   color: #4A4A4A;
-  left: 170px;
-  top: 270px;
+  left: 47%;
+  bottom: 35%;
   position: fixed;
   font-size: 5px;
   letter-spacing: 0.1em;
@@ -78,7 +78,7 @@ body {
   overflow: hidden;
   z-index: 6;
   width: 414px;
-  top: 10%;
+  top: 80%;
 
 }
 
