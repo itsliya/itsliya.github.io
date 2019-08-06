@@ -6,7 +6,7 @@ body {
 
  .mybrand img {
   position: fixed;
-  transform: scale(0.3);
+  transform: scale(0.32);
   left: -20px;
   top: -80px;
 }
