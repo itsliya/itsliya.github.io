@@ -18,9 +18,9 @@ body {
 
 #mybrand img {
   position: fixed;
-  transform: scale(0.5);
-  left: -20px;
-  top: -80px;
+  transform: scale(0.7);
+  left: -100px;
+  top: -150px;
 }
 
 .hero1 {
@@ -29,7 +29,7 @@ body {
   font-style: normal;
   font-weight: 500;
   position: fixed;
-  font-size: 22px;
+  font-size: 30px;
   left: 23%;
   bottom: 60%;
   letter-spacing: 0.02em;
@@ -45,7 +45,7 @@ body {
   position: fixed;
   left: 48%;
   bottom: 60%;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 400;
   letter-spacing: 0.02em;
   opacity: 1;
@@ -62,7 +62,7 @@ body {
   left: 30%;
   bottom: 55%;
   position: fixed;
-  font-size: 5px;
+  font-size: 15px;
   letter-spacing: 0.1em;
   animation: fadeIn 1s both 1s;
   opacity: 1;
@@ -120,7 +120,7 @@ a.copy:hover {
 #home {
   position: fixed;
   left: 190px;
-  bottom: 530px;
+  bottom: 90%;
   animation: fadeIn 1s both 1s;
 
 }
@@ -128,7 +128,7 @@ a.copy:hover {
 #work {
   position: fixed;
   left: 250px;
-  bottom: 530px;
+  bottom: 90%;
   animation: fadeIn 1s both 1s;
 
 }
@@ -136,7 +136,7 @@ a.copy:hover {
 #tinkering {
   position: fixed;
   left: 310px;
-  bottom: 530px;
+  bottom: 90%;
   animation: fadeIn 1s both 1s;
 
 }
@@ -144,7 +144,7 @@ a.copy:hover {
 #about {
   position: fixed;
   left: 400px;
-  bottom: 530px;
+  bottom: 90%;
   animation: fadeIn 1s both 1s;
 
 }
