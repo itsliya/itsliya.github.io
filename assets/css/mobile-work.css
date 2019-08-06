@@ -18,7 +18,6 @@ img:hover {
 
 .navbar-container {
   position: fixed;
-  height: 20px;
   height: 15%;
   overflow: hidden;
   z-index: 1;
@@ -48,28 +47,28 @@ img:hover {
 #home {
   position: fixed;
   left: 190px;
-  bottom: 530px;
+  bottom: 90%;
 
 }
 
 #work {
   position: fixed;
   left: 250px;
-  bottom: 530px;
+  bottom: 90%;
 
 }
 
 #tinkering {
   position: fixed;
   left: 310px;
-  bottom: 530px;
+  bottom: 90%;
 
 }
 
 #about {
   position: fixed;
   left: 400px;
-  bottom: 530px;
+  bottom: 90%;
 
 }
 
