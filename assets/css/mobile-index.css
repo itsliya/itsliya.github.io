@@ -78,7 +78,7 @@ body {
   overflow: hidden;
   z-index: 6;
   width: 414px;
-  bottom: 90%;
+  bottom: 10%;
 
 }
 
@@ -120,7 +120,7 @@ a.copy:hover {
 #home {
   position: fixed;
   left: 190px;
-  bottom: 10%;
+  bottom: 90%;
   animation: fadeIn 1s both 1s;
 
 }
