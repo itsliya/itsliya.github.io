@@ -99,7 +99,7 @@ a {
   position: relative;
   display: inline;
   top: 140px;
-  left: 37%;
+  left: 38%;
   font-family: futura-pt, sans-serif;
   color: #696969;
   letter-spacing: 0.1em;
@@ -126,7 +126,7 @@ a {
 .study-1 {
   position: relative;
   top: 150px;
-  left: 8%;
+  left: 9%;
   z-index: -4;
   transform: scale(1);
   width: 420px;
@@ -136,7 +136,7 @@ a {
 .description-1 {
   position: relative;
   top: 190px;
-  left: 8%;
+  left: 9%;
   width: 85%;
   z-index: -4;
   font-family: futura-pt, sans-serif;
@@ -162,7 +162,7 @@ a {
 .description-2 {
   position: relative;
   top: 220px;
-  left: 8%;
+  left: 9%;
   width: 85%;
   z-index: -4;
   font-family: futura-pt, sans-serif;
@@ -179,7 +179,7 @@ a {
 .study-3 {
   position: relative;
   top: 280px;
-  left: 11.5%;
+  left: 12.5%;
   z-index: -4;
   height: 300px;
   width: 380px;
@@ -189,7 +189,7 @@ a {
 .description-3 {
   position: relative;
   top: 330px;
-  left: 8%;
+  left: 9%;
   width: 85%;
   z-index: -4;
   font-family: futura-pt, sans-serif;
@@ -206,7 +206,7 @@ a {
 .study-4 {
   position: relative;
   bottom: -345px;
-  left: 12%;
+  left: 13%;
   z-index: 3;
   height: 255px;
   width: 380px;
@@ -260,7 +260,7 @@ a {
 .description-6 {
   position: relative;
   top: 920px;
-  left: 12%;
+  left: 13%;
   width: 85%;
   z-index: 3;
   font-family: futura-pt, sans-serif;
