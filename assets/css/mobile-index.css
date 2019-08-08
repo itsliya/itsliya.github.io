@@ -119,7 +119,7 @@ a.copy:hover {
 
 #home {
   position: fixed;
-  left: 220px;
+  left: 270px;
   bottom: 85%;
   animation: fadeIn 1s both 1s;
 
@@ -127,7 +127,7 @@ a.copy:hover {
 
 #work {
   position: fixed;
-  left: 280px;
+  left: 320px;
   bottom: 85%;
   animation: fadeIn 1s both 1s;
 
@@ -135,7 +135,7 @@ a.copy:hover {
 
 #tinkering {
   position: fixed;
-  left: 340px;
+  left: 370px;
   bottom: 85%;
   animation: fadeIn 1s both 1s;
 
@@ -143,7 +143,7 @@ a.copy:hover {
 
 #about {
   position: fixed;
-  left: 430px;
+  left: 530px;
   bottom: 85%;
   animation: fadeIn 1s both 1s;
 
