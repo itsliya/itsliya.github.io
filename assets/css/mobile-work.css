@@ -99,7 +99,7 @@ a {
   position: relative;
   display: inline;
   top: 140px;
-  left: 38%;
+  left: 40%;
   font-family: futura-pt, sans-serif;
   color: #696969;
   letter-spacing: 0.1em;
@@ -113,7 +113,7 @@ a {
   position: relative;
   display: inline;
   top: 300px;
-  left: 30%;
+  left: 35%;
   font-family: futura-pt, sans-serif;
   color: #696969;
   letter-spacing: 0.1em;
@@ -126,7 +126,7 @@ a {
 .study-1 {
   position: relative;
   top: 150px;
-  left: 9%;
+  left: 10%;
   z-index: -4;
   transform: scale(1);
   width: 420px;
@@ -136,8 +136,8 @@ a {
 .description-1 {
   position: relative;
   top: 190px;
-  left: 9%;
-  width: 85%;
+  left: 10%;
+  width: 90%;
   z-index: -4;
   font-family: futura-pt, sans-serif;
   color: #4A4A4A;
@@ -154,7 +154,7 @@ a {
 .study-2 {
   position: relative;
   top: 200px;
-  left: -1%;
+  left: 0%;
   z-index: -4;
   transform: scale(0.84);
 }
@@ -162,8 +162,8 @@ a {
 .description-2 {
   position: relative;
   top: 220px;
-  left: 9%;
-  width: 85%;
+  left: 10%;
+  width: 90%;
   z-index: -4;
   font-family: futura-pt, sans-serif;
   color: #4A4A4A;
@@ -179,7 +179,7 @@ a {
 .study-3 {
   position: relative;
   top: 280px;
-  left: 12.5%;
+  left: 15.5%;
   z-index: -4;
   height: 300px;
   width: 380px;
@@ -189,8 +189,8 @@ a {
 .description-3 {
   position: relative;
   top: 330px;
-  left: 9%;
-  width: 85%;
+  left: 13%;
+  width: 90%;
   z-index: -4;
   font-family: futura-pt, sans-serif;
   color: #4A4A4A;
@@ -206,7 +206,7 @@ a {
 .study-4 {
   position: relative;
   bottom: -345px;
-  left: 13%;
+  left: 15%;
   z-index: 3;
   height: 255px;
   width: 380px;
@@ -217,8 +217,8 @@ a {
 .description-4 {
   position: relative;
   bottom: -395px;
-  left: 8%;
-  width: 85%;
+  left: 11%;
+  width: 90%;
   z-index: -4;
   font-family: futura-pt, sans-serif;
   color: #4A4A4A;
@@ -260,8 +260,8 @@ a {
 .description-6 {
   position: relative;
   top: 920px;
-  left: 13%;
-  width: 85%;
+  left: 15%;
+  width: 90%;
   z-index: 3;
   font-family: futura-pt, sans-serif;
   color: #696969;
@@ -276,7 +276,7 @@ a {
 .arrow {
   position: relative;
   bottom: -20rem;
-  left: 49.5%;
+  left: 51.5%;
   margin-left:-20px;
   width: 40px;
   height: 40px;
