@@ -19,8 +19,8 @@ body {
 #mybrand img {
   position: fixed;
   transform: scale(1);
-  left: 0px;
-  top: -20px;
+  left: 25px;
+  top: -50px;
 }
 
 .hero1 {
@@ -78,7 +78,7 @@ body {
   overflow: hidden;
   z-index: 6;
   width: 414px;
-  bottom: 15%;
+  bottom: 12%;
 
 }
 
@@ -120,31 +120,31 @@ a.copy:hover {
 #home {
   position: fixed;
   left: 300px;
-  bottom: 85%;
+  bottom: 88%;
   animation: fadeIn 1s both 1s;
 
 }
 
 #work {
   position: fixed;
-  left:400px;
-  bottom: 85%;
+  left: 500px;
+  bottom: 88%;
   animation: fadeIn 1s both 1s;
 
 }
 
 #tinkering {
   position: fixed;
-  left: 500px;
-  bottom: 85%;
+  left: 700px;
+  bottom: 88%;
   animation: fadeIn 1s both 1s;
 
 }
 
 #about {
   position: fixed;
-  left: 600px;
-  bottom: 85%;
+  left: 900px;
+  bottom: 88%;
   animation: fadeIn 1s both 1s;
 
 }
