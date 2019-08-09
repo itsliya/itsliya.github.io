@@ -26,7 +26,6 @@ body {
 }
 
 .navbar {
-  float: left;
   display: inline;
   font-family: futura-pt, sans-serif;
   color: #4A4A4A;
@@ -39,28 +38,28 @@ body {
 
 #home {
   position: fixed;
-  left: 190px;
+  left: 150px;
   bottom: 90%;
 
 }
 
 #work {
   position: fixed;
-  left: 250px;
+  left: 210px;
   bottom: 90%;
 
 }
 
 #tinkering {
   position: fixed;
-  left: 310px;
+  left: 260px;
   bottom: 90%;
 
 }
 
 #about {
   position: fixed;
-  left: 400px;
+  left: 320px;
   bottom: 90%;
 
 }
@@ -95,7 +94,7 @@ a.mybrand:after {
   position: relative;
   display: inline;
   top: 130px;
-  left: 10%;
+  left: 8%;
   font-family: futura-pt, sans-serif;
   color: #5C5C5C;
   letter-spacing: 0.1em;
