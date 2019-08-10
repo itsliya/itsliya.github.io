@@ -99,14 +99,14 @@ a.copy:hover {
 }
 
 .hero1 {
-  font-family: 'Homemade Apple', cursive;
+  font-family: 'Open Sans', sans-serif;
   color: #5F5F5F;
-  font-style: normal;
-  font-weight: 500;
+  font-style: bold;
+  font-weight: 300;
   position: fixed;
   font-size: 50px;
-  left: 470px;
-  top: 190px;
+  left: 445px;
+  top: 195px;
   letter-spacing: 0.02em;
   animation: fadeInUp 1.5s both;
   opacity: 0;
@@ -115,12 +115,13 @@ a.copy:hover {
 }
 
 .hero2 {
-  font-family: 'Homemade Apple', cursive;
+  font-family: 'Open Sans', sans-serif;
   color: #5F5F5F;
   position: fixed;
-  font-size: 45px;
-  font-weight: 400;
-  left: 565px;
+  font-style: bold;
+  font-size: 50px;
+  font-weight: 300;
+  left: 605px;
   top: 195px;
   letter-spacing: 0.02em;
   animation: fadeInUp 1.5s both;
