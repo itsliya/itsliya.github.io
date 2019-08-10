@@ -52,14 +52,14 @@ body {
 
 #tinkering {
   position: fixed;
-  left: 260px;
+  left: 270px;
   bottom: 90%;
 
 }
 
 #about {
   position: fixed;
-  left: 350px;
+  left: 360px;
   bottom: 90%;
 
 }
@@ -99,6 +99,6 @@ a.mybrand:after {
   color: #5C5C5C;
   letter-spacing: 0.1em;
   font-style: normal;
-  font-size: 35px;
+  font-size: 30px;
   z-index: -3;
 }
