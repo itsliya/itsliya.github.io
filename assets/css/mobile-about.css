@@ -147,7 +147,7 @@ a.descriptionlinksorange:hover:after {
 .myphoto {
   transform: scale(0.22);
   top: -520px;
-  left: -100px;
+  left: -50px;
   position: relative;
   opacity: 0.9;
   z-index: -6;
