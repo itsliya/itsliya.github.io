@@ -105,8 +105,8 @@ a.copy:hover {
   font-weight: 300;
   position: fixed;
   font-size: 50px;
-  left: 444px;
-  top: 190px;
+  left: 445px;
+  top: 200px;
   letter-spacing: 0.02em;
   animation: fadeInUp 1.5s both;
   opacity: 0;
@@ -121,8 +121,8 @@ a.copy:hover {
   font-style: bold;
   font-size: 50px;
   font-weight: 300;
-  left: 604px;
-  top: 190px;
+  left: 605px;
+  top: 200px;
   letter-spacing: 0.02em;
   animation: fadeInUp 1.5s both;
   opacity: 0;
