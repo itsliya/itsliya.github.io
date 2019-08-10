@@ -24,7 +24,7 @@ body {
 }
 
 .hero1 {
-  font-family: 'Homemade Apple', cursive;
+  font-family: 'Open Sans', sans-serif;
   color: #5F5F5F;
   font-style: normal;
   font-weight: 500;
@@ -40,7 +40,7 @@ body {
 }
 
 .hero2 {
-  font-family: 'Homemade Apple', cursive;
+  font-family: 'Open Sans', sans-serif;
   color: #5F5F5F;
   position: fixed;
   left: 50%;
