@@ -201,7 +201,7 @@ a.mybrand:after {
 .design {
   position: relative;
   display: inline;
-  bottom: 1230px;
+  bottom: 1315px;
   left: 63.5%;
   font-family: futura-pt, sans-serif;
   color: #696969;
@@ -293,7 +293,7 @@ a.mybrand:after {
 
 .study-4 {
   position: relative;
-  top: -1195px;
+  top: -1275px;
   left: 56%;
   z-index: 3;
   height: 255px;
@@ -302,7 +302,7 @@ a.mybrand:after {
 
 .description-4 {
   position: relative;
-  bottom: 1165px;
+  bottom: 1245px;
   left: 56%;
   width: 30%;
   z-index: -4;
