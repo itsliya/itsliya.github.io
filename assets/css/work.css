@@ -43,13 +43,13 @@ body {
 
 #home {
   position: fixed;
-  left: 850px;
+  left: 950px; /*previously 850px*/
   bottom: 540px;
 }
 
 #work {
   position: fixed;
-  left: 940px;
+  left: 1050px; /*previously 940px*/
   bottom: 540px;
 }
 
