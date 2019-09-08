@@ -120,7 +120,7 @@ a.descriptionlinksorange:hover:after {
   font-family: 'Roboto', sans-serif;
   font-size: 35px;
   width: 80%;
-  left: 160px;
+  left: 170px;
   top: 145px;
   word-spacing: 0.3em;
   position: relative;
@@ -147,7 +147,7 @@ a.descriptionlinksorange:hover:after {
 .myphoto {
   transform: scale(0.22);
   top: -520px;
-  left: -50px;
+  margin-left: 10%;
   position: relative;
   opacity: 0.9;
   z-index: -6;

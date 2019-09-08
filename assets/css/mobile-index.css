@@ -119,7 +119,7 @@ a.copy:hover {
 
 #home {
   position: fixed;
-  left: 300px;
+  left: 500px; /*previously 300px*/
   bottom: 88%;
   animation: fadeIn 1s both 1s;
 
@@ -127,7 +127,7 @@ a.copy:hover {
 
 #work {
   position: fixed;
-  left: 450px;
+  left: 665px; /*previously 450px */
   bottom: 88%;
   animation: fadeIn 1s both 1s;
 

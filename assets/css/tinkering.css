@@ -45,25 +45,25 @@ body {
 #home {
   position: fixed;
   left: 850px;
-  bottom: 550px;
+  bottom: 541px;
 }
 
 #work {
   position: fixed;
   left: 940px;
-  bottom: 550px;
+  bottom: 541px;
 }
 
 #tinkering {
   position: fixed;
   left: 1020px;
-  bottom: 550px;
+  bottom: 541px;
 }
 
 #about {
   position: fixed;
   left: 1140px;
-  bottom: 550px;
+  bottom: 541px;
 }
 
 a {

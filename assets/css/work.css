@@ -44,25 +44,25 @@ body {
 #home {
   position: fixed;
   left: 850px;
-  bottom: 550px;
+  bottom: 540px;
 }
 
 #work {
   position: fixed;
   left: 940px;
-  bottom: 550px;
+  bottom: 540px;
 }
 
 #tinkering {
   position: fixed;
   left: 1020px;
-  bottom: 550px;
+  bottom: 540px;
 }
 
 #about {
   position: fixed;
   left: 1140px;
-  bottom: 550px;
+  bottom: 540px;
 }
 
 a {
@@ -152,7 +152,7 @@ a.mybrand:after {
 .arrow {
   position: relative;
   bottom: -20rem;
-  left: 27.5%;
+  left: 28%;
   margin-left:-20px;
   width: 40px;
   height: 40px;
