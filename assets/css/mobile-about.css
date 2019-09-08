@@ -40,28 +40,28 @@ body {
 
 #home {
   position: fixed;
-  left: 190px;
+  left: 270px; /*previously 190px*/
   bottom: 90%;
 
 }
 
 #work {
   position: fixed;
-  left: 250px;
+  left: 350px; /*previously 250px*/
   bottom: 90%;
 
 }
 
 #tinkering {
   position: fixed;
-  left: 310px;
+  left: 390px;
   bottom: 90%;
 
 }
 
 #about {
   position: fixed;
-  left: 400px;
+  left: 420px; /*previously 400px*/
   bottom: 90%;
 
 }
