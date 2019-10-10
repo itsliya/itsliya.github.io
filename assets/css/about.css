@@ -24,9 +24,9 @@ body {
   z-index: -2;
   background: white;
   margin: 0px;
-  -webkit-box-shadow: 0 8px 10px -6px #999;
+  /**-webkit-box-shadow: 0 8px 10px -6px #999;
    -moz-box-shadow: 0 8px 10px -6px #999;
-   box-shadow: 0 8px 10px -6px #999;
+   box-shadow: 0 8px 10px -6px #999; **/
 
 }
 
@@ -45,25 +45,25 @@ body {
 #home {
   position: fixed;
   left: 950px; /*previously 850px*/
-  bottom: 541px;
+  bottom: 521px;
 }
 
 #work {
   position: fixed;
   left: 1050px; /*previously 940px*/
-  bottom: 541px;
+  bottom: 521px;
 }
 
 #tinkering {
   position: fixed;
   left: 1020px;
-  bottom: 541px;
+  bottom: 521px;
 }
 
 #about {
   position: fixed;
   left: 1140px;
-  bottom: 541px;
+  bottom: 521px;
 }
 
 a {
@@ -120,8 +120,8 @@ a.descriptionlinksorange:hover:after {
   font-family: 'Roboto', sans-serif;
   font-size: 35px;
   width: 30%;
-  left: 355px;
-  top: 115px;
+  left: 345px;
+  top: 105px;
   word-spacing: 0.3em;
   position: fixed;
   font-weight: 700;
@@ -132,8 +132,8 @@ a.descriptionlinksorange:hover:after {
   font-family: 'Roboto', sans-serif;
   font-size: 13px;
   width: 38%;
-  left: 200px;
-  top: 190px;
+  left: 180px;
+  top: 180px;
   position: fixed;
   font-weight: 300;
   color: #3B3B3B;
@@ -144,25 +144,25 @@ a.descriptionlinksorange:hover:after {
 
 .myphoto {
   transform: scale(0.22);
-  top: -670px;
-  left: 200px;
+  top: -680px;
+  left: 160px;
   position: fixed;
   opacity: 0.9;
 }
 
 .myphoto:hover {
-  animation: wave 0.45s both 2 ease-in;
+  animation: wave 0.40s both 2 ease-in;
 }
 
 @keyframes wave {
   0% {
-    left: 200px;
+    left: 160px;
   }
   50% {
-    left: 190px;
+    left: 170px;
   }
   100% {
-    left: 200px;
+    left: 160px;
   }
 }
 
@@ -170,7 +170,7 @@ a.descriptionlinksorange:hover:after {
   position: fixed;
   transform: scale(0.3);
   left: 10px;
-  top: -96.5px;
+  top: -76.5px;
 }
 
 a.mybrand:after {
