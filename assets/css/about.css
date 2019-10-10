@@ -147,7 +147,7 @@ a.descriptionlinksorange:hover:after {
   top: -680px;
   left: 160px;
   position: fixed;
-  opacity: 0.9;
+  filter: brightness(1.05);
 }
 
 .myphoto:hover {
