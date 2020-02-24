@@ -16,6 +16,22 @@ body {
   z-index: -5;
 }
 
+
+.placeholder {
+  position: fixed;
+  float: left;
+  display: inline;
+  font-family: futura-pt, sans-serif;
+  color: #4A4A4A;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  top: 39%;
+  left: 32%;
+
+}
+
 .navbar-container {
   position: fixed;
   height: 60px;

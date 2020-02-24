@@ -15,6 +15,21 @@ body {
   margin: 0px;
 }
 
+.placeholder {
+  position: fixed;
+  float: left;
+  display: inline;
+  font-family: futura-pt, sans-serif;
+  color: #4A4A4A;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  top: 39%;
+  left: 32%;
+
+}
+
 .navbar-container {
   position: fixed;
   height: 60px;
@@ -67,7 +82,7 @@ a.copy:hover {
 
 #work {
   position: fixed;
-  left: 1045px; /* previously 940px */
+  left: 1040px; /* previously 940px */
   bottom: 523px;
   animation: fadeIn 1s both 2.5s;
 
@@ -137,7 +152,7 @@ a.copy:hover {
   color: #4A4A4A;
   position: fixed;
   font-size: 13px;
-  left: 437px;
+  left: 436px;
   top: 295px;
   letter-spacing: 0.1em;
   animation: fadeInUp 1.8s both 1.5s;
